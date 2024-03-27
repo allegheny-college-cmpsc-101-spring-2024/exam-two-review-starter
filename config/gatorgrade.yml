@@ -1,0 +1,50 @@
+# perform checks on a file
+- questions/checklist.md:
+    - description: Ensure that the checklist.md file exists in the questions directory
+      check: ConfirmFileExists
+    - description: Complete all TODOs, remove the TODO markers, and rewrite comments for checklist.md
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
+
+- questions/coding.md:
+    - description: Ensure that the coding.md file exists in the questions directory
+      check: ConfirmFileExists
+    - description: Complete all TODOs, remove the TODO markers, and rewrite comments for coding.md
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
+
+- questions/objectives.md:
+    - description: Ensure that the objectives.md file exists in the questions directory
+      check: ConfirmFileExists
+    - description: Complete all TODOs, remove the TODO markers, and rewrite comments for objectives.md
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
+
+- questions/objectives.md:
+    - description: Ensure that the objectives.md file exists in the questions directory
+      check: ConfirmFileExists
+    - description: Complete all TODOs, remove the TODO markers, and rewrite comments for objectives.md
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
+
+- questions/terminology.md:
+    - description: Ensure that the terminology.md file exists in the questions directory
+      check: ConfirmFileExists
+    - description: Complete all TODOs, remove the TODO markers, and rewrite comments for terminology.md
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
